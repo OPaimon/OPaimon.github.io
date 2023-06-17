@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/2023-06-17 测试.md",
+                "file": "temple/TEMPLATE_post.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "395ca4821f6b999b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "temple/TEMPLATE_post.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/2023-06-17 测试.md",
+                "file": "temple/TEMPLATE_post.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/2023-06-17 测试.md",
+                "file": "temple/TEMPLATE_post.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/2023-06-17 测试.md"
+                "file": "temple/TEMPLATE_post.md"
               }
             }
           }
@@ -146,11 +159,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b0a2580460f952a2",
+  "active": "395ca4821f6b999b",
   "lastOpenFiles": [
-    "temple/TEMPLE_post.md",
-    "works/homeworks/2023-04-17-code.md",
+    "posts/2023-06-17_测试post模板是否可用.md",
+    "temple/TEMPLATE_post.md",
+    "posts",
     "posts/2023-06-17 测试.md",
+    "works/homeworks/2023-04-17-code.md",
     "works/homeworks/2023-05-23-PTA.md",
     "temple",
     "slides.md",
