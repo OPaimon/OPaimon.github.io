@@ -1,0 +1,1 @@
+import{_}from"./plugin-vue_export-helper-c27b6911.js";import{o as e,c as t,a as o}from"./app-c46c9628.js";const c={},s=o("p",null,"本文用于测试利用quickadd 制作的模板是否可用",-1),n=[s];function r(a,l){return e(),t("div",null,n)}const f=_(c,[["render",r],["__file","2023-06-17_测试post模板是否可用.html.vue"]]);export{f as default};
