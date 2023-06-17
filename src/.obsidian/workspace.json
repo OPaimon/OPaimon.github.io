@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "works/homeworks/2023-05-23-PTA.md",
+                "file": "temple/TEMPLE_post.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6fe04be1d6cea7ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/2023-06-17 测试.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "works/homeworks/2023-05-23-PTA.md",
+                "file": "posts/2023-06-17 测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "works/homeworks/2023-05-23-PTA.md",
+                "file": "posts/2023-06-17 测试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "works/homeworks/2023-05-23-PTA.md"
+                "file": "posts/2023-06-17 测试.md"
               }
             }
           }
@@ -146,9 +159,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ab3be69982089215",
+  "active": "6fe04be1d6cea7ba",
   "lastOpenFiles": [
+    "posts/2023-06-17 测试.md",
+    "temple/TEMPLE_post.md",
     "works/homeworks/2023-04-17-code.md",
+    "works/homeworks/2023-05-23-PTA.md",
+    "temple",
     "slides.md",
     "README.md"
   ]
