@@ -9,11 +9,11 @@ devDependencies:
     specifier: 2.0.0-beta.63
     version: registry.npmmirror.com/@vuepress/client@2.0.0-beta.63
   vue:
-    specifier: ^3.2.47
-    version: registry.npmmirror.com/vue@3.2.47
+    specifier: ^3.3.4
+    version: registry.npmmirror.com/vue@3.3.4
   vuepress:
     specifier: 2.0.0-beta.63
-    version: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.2.47)
+    version: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.3.4)
   vuepress-theme-hope:
     specifier: 2.0.0-beta.226
     version: registry.npmmirror.com/vuepress-theme-hope@2.0.0-beta.226(vuepress@2.0.0-beta.63)
@@ -2379,7 +2379,7 @@ packages:
     name: '@types/sax'
     version: 1.2.4
     dependencies:
-      '@types/node': registry.npmmirror.com/@types/node@17.0.45
+      '@types/node': registry.npmmirror.com/@types/node@20.3.1
     dev: true
 
   registry.npmmirror.com/@types/trusted-types@2.0.3:
@@ -2414,17 +2414,6 @@ packages:
       vue: registry.npmmirror.com/vue@3.3.4
     dev: true
 
-  registry.npmmirror.com/@vue/compiler-core@3.2.47:
-    resolution: {integrity: sha512-p4D7FDnQb7+YJmO2iPEv0SQNeNzcbHdGByJDsT4lynf63AFkOTFN07HsiRSvjGo0QrxR/o3d0hUyNCUnBU2Tig==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vue/compiler-core/-/compiler-core-3.2.47.tgz}
-    name: '@vue/compiler-core'
-    version: 3.2.47
-    dependencies:
-      '@babel/parser': registry.npmmirror.com/@babel/parser@7.22.5
-      '@vue/shared': registry.npmmirror.com/@vue/shared@3.2.47
-      estree-walker: registry.npmmirror.com/estree-walker@2.0.2
-      source-map: registry.npmmirror.com/source-map@0.6.1
-    dev: true
-
   registry.npmmirror.com/@vue/compiler-core@3.3.4:
     resolution: {integrity: sha512-cquyDNvZ6jTbf/+x+AgM2Arrp6G4Dzbb0R64jiG804HRMfRiFXWI6kqUVqZ6ZR0bQhIoQjB4+2bhNtVwndW15g==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vue/compiler-core/-/compiler-core-3.3.4.tgz}
     name: '@vue/compiler-core'
@@ -2436,15 +2425,6 @@ packages:
       source-map-js: registry.npmmirror.com/source-map-js@1.0.2
     dev: true
 
-  registry.npmmirror.com/@vue/compiler-dom@3.2.47:
-    resolution: {integrity: sha512-dBBnEHEPoftUiS03a4ggEig74J2YBZ2UIeyfpcRM2tavgMWo4bsEfgCGsu+uJIL/vax9S+JztH8NmQerUo7shQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vue/compiler-dom/-/compiler-dom-3.2.47.tgz}
-    name: '@vue/compiler-dom'
-    version: 3.2.47
-    dependencies:
-      '@vue/compiler-core': registry.npmmirror.com/@vue/compiler-core@3.2.47
-      '@vue/shared': registry.npmmirror.com/@vue/shared@3.2.47
-    dev: true
-
   registry.npmmirror.com/@vue/compiler-dom@3.3.4:
     resolution: {integrity: sha512-wyM+OjOVpuUukIq6p5+nwHYtj9cFroz9cwkfmP9O1nzH68BenTTv0u7/ndggT8cIQlnBeOo6sUT/gvHcIkLA5w==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vue/compiler-dom/-/compiler-dom-3.3.4.tgz}
     name: '@vue/compiler-dom'
@@ -2452,23 +2432,6 @@ packages:
     dependencies:
       '@vue/compiler-core': registry.npmmirror.com/@vue/compiler-core@3.3.4
       '@vue/shared': registry.npmmirror.com/@vue/shared@3.3.4
-    dev: true
-
-  registry.npmmirror.com/@vue/compiler-sfc@3.2.47:
-    resolution: {integrity: sha512-rog05W+2IFfxjMcFw10tM9+f7i/+FFpZJJ5XHX72NP9eC2uRD+42M3pYcQqDXVYoj74kHMSEdQ/WmCjt8JFksQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vue/compiler-sfc/-/compiler-sfc-3.2.47.tgz}
-    name: '@vue/compiler-sfc'
-    version: 3.2.47
-    dependencies:
-      '@babel/parser': registry.npmmirror.com/@babel/parser@7.22.5
-      '@vue/compiler-core': registry.npmmirror.com/@vue/compiler-core@3.2.47
-      '@vue/compiler-dom': registry.npmmirror.com/@vue/compiler-dom@3.2.47
-      '@vue/compiler-ssr': registry.npmmirror.com/@vue/compiler-ssr@3.2.47
-      '@vue/reactivity-transform': registry.npmmirror.com/@vue/reactivity-transform@3.2.47
-      '@vue/shared': registry.npmmirror.com/@vue/shared@3.2.47
-      estree-walker: registry.npmmirror.com/estree-walker@2.0.2
-      magic-string: registry.npmmirror.com/magic-string@0.25.9
-      postcss: registry.npmmirror.com/postcss@8.4.24
-      source-map: registry.npmmirror.com/source-map@0.6.1
     dev: true
 
   registry.npmmirror.com/@vue/compiler-sfc@3.3.4:
@@ -2488,15 +2451,6 @@ packages:
       source-map-js: registry.npmmirror.com/source-map-js@1.0.2
     dev: true
 
-  registry.npmmirror.com/@vue/compiler-ssr@3.2.47:
-    resolution: {integrity: sha512-wVXC+gszhulcMD8wpxMsqSOpvDZ6xKXSVWkf50Guf/S+28hTAXPDYRTbLQ3EDkOP5Xz/+SY37YiwDquKbJOgZw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vue/compiler-ssr/-/compiler-ssr-3.2.47.tgz}
-    name: '@vue/compiler-ssr'
-    version: 3.2.47
-    dependencies:
-      '@vue/compiler-dom': registry.npmmirror.com/@vue/compiler-dom@3.2.47
-      '@vue/shared': registry.npmmirror.com/@vue/shared@3.2.47
-    dev: true
-
   registry.npmmirror.com/@vue/compiler-ssr@3.3.4:
     resolution: {integrity: sha512-m0v6oKpup2nMSehwA6Uuu+j+wEwcy7QmwMkVNVfrV9P2qE5KshC6RwOCq8fjGS/Eak/uNb8AaWekfiXxbBB6gQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vue/compiler-ssr/-/compiler-ssr-3.3.4.tgz}
     name: '@vue/compiler-ssr'
@@ -2512,18 +2466,6 @@ packages:
     version: 6.5.0
     dev: true
 
-  registry.npmmirror.com/@vue/reactivity-transform@3.2.47:
-    resolution: {integrity: sha512-m8lGXw8rdnPVVIdIFhf0LeQ/ixyHkH5plYuS83yop5n7ggVJU+z5v0zecwEnX7fa7HNLBhh2qngJJkxpwEEmYA==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vue/reactivity-transform/-/reactivity-transform-3.2.47.tgz}
-    name: '@vue/reactivity-transform'
-    version: 3.2.47
-    dependencies:
-      '@babel/parser': registry.npmmirror.com/@babel/parser@7.22.5
-      '@vue/compiler-core': registry.npmmirror.com/@vue/compiler-core@3.2.47
-      '@vue/shared': registry.npmmirror.com/@vue/shared@3.2.47
-      estree-walker: registry.npmmirror.com/estree-walker@2.0.2
-      magic-string: registry.npmmirror.com/magic-string@0.25.9
-    dev: true
-
   registry.npmmirror.com/@vue/reactivity-transform@3.3.4:
     resolution: {integrity: sha512-MXgwjako4nu5WFLAjpBnCj/ieqcjE2aJBINUNQzkZQfzIZA4xn+0fV1tIYBJvvva3N3OvKGofRLvQIwEQPpaXw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vue/reactivity-transform/-/reactivity-transform-3.3.4.tgz}
     name: '@vue/reactivity-transform'
@@ -2534,14 +2476,6 @@ packages:
       '@vue/shared': registry.npmmirror.com/@vue/shared@3.3.4
       estree-walker: registry.npmmirror.com/estree-walker@2.0.2
       magic-string: registry.npmmirror.com/magic-string@0.30.0
-    dev: true
-
-  registry.npmmirror.com/@vue/reactivity@3.2.47:
-    resolution: {integrity: sha512-7khqQ/75oyyg+N/e+iwV6lpy1f5wq759NdlS1fpAhFXa8VeAIKGgk2E/C4VF59lx5b+Ezs5fpp/5WsRYXQiKxQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vue/reactivity/-/reactivity-3.2.47.tgz}
-    name: '@vue/reactivity'
-    version: 3.2.47
-    dependencies:
-      '@vue/shared': registry.npmmirror.com/@vue/shared@3.2.47
     dev: true
 
   registry.npmmirror.com/@vue/reactivity@3.3.4:
@@ -2563,15 +2497,6 @@ packages:
       vue: registry.npmmirror.com/vue@3.3.4
     dev: true
 
-  registry.npmmirror.com/@vue/runtime-core@3.2.47:
-    resolution: {integrity: sha512-RZxbLQIRB/K0ev0K9FXhNbBzT32H9iRtYbaXb0ZIz2usLms/D55dJR2t6cIEUn6vyhS3ALNvNthI+Q95C+NOpA==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vue/runtime-core/-/runtime-core-3.2.47.tgz}
-    name: '@vue/runtime-core'
-    version: 3.2.47
-    dependencies:
-      '@vue/reactivity': registry.npmmirror.com/@vue/reactivity@3.2.47
-      '@vue/shared': registry.npmmirror.com/@vue/shared@3.2.47
-    dev: true
-
   registry.npmmirror.com/@vue/runtime-core@3.3.4:
     resolution: {integrity: sha512-R+bqxMN6pWO7zGI4OMlmvePOdP2c93GsHFM/siJI7O2nxFRzj55pLwkpCedEY+bTMgp5miZ8CxfIZo3S+gFqvA==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vue/runtime-core/-/runtime-core-3.3.4.tgz}
     name: '@vue/runtime-core'
@@ -2579,16 +2504,6 @@ packages:
     dependencies:
       '@vue/reactivity': registry.npmmirror.com/@vue/reactivity@3.3.4
       '@vue/shared': registry.npmmirror.com/@vue/shared@3.3.4
-    dev: true
-
-  registry.npmmirror.com/@vue/runtime-dom@3.2.47:
-    resolution: {integrity: sha512-ArXrFTjS6TsDei4qwNvgrdmHtD930KgSKGhS5M+j8QxXrDJYLqYw4RRcDy1bz1m1wMmb6j+zGLifdVHtkXA7gA==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vue/runtime-dom/-/runtime-dom-3.2.47.tgz}
-    name: '@vue/runtime-dom'
-    version: 3.2.47
-    dependencies:
-      '@vue/runtime-core': registry.npmmirror.com/@vue/runtime-core@3.2.47
-      '@vue/shared': registry.npmmirror.com/@vue/shared@3.2.47
-      csstype: registry.npmmirror.com/csstype@2.6.21
     dev: true
 
   registry.npmmirror.com/@vue/runtime-dom@3.3.4:
@@ -2599,19 +2514,6 @@ packages:
       '@vue/runtime-core': registry.npmmirror.com/@vue/runtime-core@3.3.4
       '@vue/shared': registry.npmmirror.com/@vue/shared@3.3.4
       csstype: registry.npmmirror.com/csstype@3.1.2
-    dev: true
-
-  registry.npmmirror.com/@vue/server-renderer@3.2.47(vue@3.2.47):
-    resolution: {integrity: sha512-dN9gc1i8EvmP9RCzvneONXsKfBRgqFeFZLurmHOveL7oH6HiFXJw5OGu294n1nHc/HMgTy6LulU/tv5/A7f/LA==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vue/server-renderer/-/server-renderer-3.2.47.tgz}
-    id: registry.npmmirror.com/@vue/server-renderer/3.2.47
-    name: '@vue/server-renderer'
-    version: 3.2.47
-    peerDependencies:
-      vue: 3.2.47
-    dependencies:
-      '@vue/compiler-ssr': registry.npmmirror.com/@vue/compiler-ssr@3.2.47
-      '@vue/shared': registry.npmmirror.com/@vue/shared@3.2.47
-      vue: registry.npmmirror.com/vue@3.2.47
     dev: true
 
   registry.npmmirror.com/@vue/server-renderer@3.3.4(vue@3.3.4):
@@ -2625,12 +2527,6 @@ packages:
       '@vue/compiler-ssr': registry.npmmirror.com/@vue/compiler-ssr@3.3.4
       '@vue/shared': registry.npmmirror.com/@vue/shared@3.3.4
       vue: registry.npmmirror.com/vue@3.3.4
-    dev: true
-
-  registry.npmmirror.com/@vue/shared@3.2.47:
-    resolution: {integrity: sha512-BHGyyGN3Q97EZx0taMQ+OLNuZcW3d37ZEVmEAyeoA9ERdGvm9Irc/0Fua8SNyOtV1w6BS4q25wbMzJujO9HIfQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vue/shared/-/shared-3.2.47.tgz}
-    name: '@vue/shared'
-    version: 3.2.47
     dev: true
 
   registry.npmmirror.com/@vue/shared@3.3.4:
@@ -3643,12 +3539,6 @@ packages:
     name: css-what
     version: 6.1.0
     engines: {node: '>= 6'}
-    dev: true
-
-  registry.npmmirror.com/csstype@2.6.21:
-    resolution: {integrity: sha512-Z1PhmomIfypOpoMjRQB70jfvy/wxT50qW08YXO5lMIJkrdq4yOTR+AW7FqutScmB9NkLwxo+jU+kZLbofZZq/w==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/csstype/-/csstype-2.6.21.tgz}
-    name: csstype
-    version: 2.6.21
     dev: true
 
   registry.npmmirror.com/csstype@3.1.2:
@@ -7166,18 +7056,6 @@ packages:
       vue: registry.npmmirror.com/vue@3.3.4
     dev: true
 
-  registry.npmmirror.com/vue@3.2.47:
-    resolution: {integrity: sha512-60188y/9Dc9WVrAZeUVSDxRQOZ+z+y5nO2ts9jWXSTkMvayiWxCWOWtBQoYjLeccfXkiiPZWAHcV+WTPhkqJHQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vue/-/vue-3.2.47.tgz}
-    name: vue
-    version: 3.2.47
-    dependencies:
-      '@vue/compiler-dom': registry.npmmirror.com/@vue/compiler-dom@3.2.47
-      '@vue/compiler-sfc': registry.npmmirror.com/@vue/compiler-sfc@3.2.47
-      '@vue/runtime-dom': registry.npmmirror.com/@vue/runtime-dom@3.2.47
-      '@vue/server-renderer': registry.npmmirror.com/@vue/server-renderer@3.2.47(vue@3.2.47)
-      '@vue/shared': registry.npmmirror.com/@vue/shared@3.2.47
-    dev: true
-
   registry.npmmirror.com/vue@3.3.4:
     resolution: {integrity: sha512-VTyEYn3yvIeY1Py0WaYGZsXnz3y5UnGi62GjVEqvEGPl6nxbOrCXbVOTQWBEJUqAyTUk2uJ5JLVnYJ6ZzGbrSw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vue/-/vue-3.3.4.tgz}
     name: vue
@@ -7217,7 +7095,7 @@ packages:
       '@vuepress/utils': registry.npmmirror.com/@vuepress/utils@2.0.0-beta.63
       vue: registry.npmmirror.com/vue@3.3.4
       vue-router: registry.npmmirror.com/vue-router@4.2.2(vue@3.3.4)
-      vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.2.47)
+      vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.3.4)
       vuepress-plugin-components: registry.npmmirror.com/vuepress-plugin-components@2.0.0-beta.226(vuepress@2.0.0-beta.63)
       vuepress-plugin-sass-palette: registry.npmmirror.com/vuepress-plugin-sass-palette@2.0.0-beta.226(vuepress@2.0.0-beta.63)
       vuepress-shared: registry.npmmirror.com/vuepress-shared@2.0.0-beta.226(vuepress@2.0.0-beta.63)
@@ -7251,7 +7129,7 @@ packages:
       chokidar: registry.npmmirror.com/chokidar@3.5.3
       vue: registry.npmmirror.com/vue@3.3.4
       vue-router: registry.npmmirror.com/vue-router@4.2.2(vue@3.3.4)
-      vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.2.47)
+      vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.3.4)
       vuepress-shared: registry.npmmirror.com/vuepress-shared@2.0.0-beta.226(vuepress@2.0.0-beta.63)
     transitivePeerDependencies:
       - '@vue/composition-api'
@@ -7288,7 +7166,7 @@ packages:
       twikoo: registry.npmmirror.com/twikoo@1.6.16
       vue: registry.npmmirror.com/vue@3.3.4
       vue-router: registry.npmmirror.com/vue-router@4.2.2(vue@3.3.4)
-      vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.2.47)
+      vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.3.4)
       vuepress-plugin-sass-palette: registry.npmmirror.com/vuepress-plugin-sass-palette@2.0.0-beta.226(vuepress@2.0.0-beta.63)
       vuepress-shared: registry.npmmirror.com/vuepress-shared@2.0.0-beta.226(vuepress@2.0.0-beta.63)
     transitivePeerDependencies:
@@ -7333,7 +7211,7 @@ packages:
       vidstack: registry.npmmirror.com/vidstack@0.6.13
       vue: registry.npmmirror.com/vue@3.3.4
       vue-router: registry.npmmirror.com/vue-router@4.2.2(vue@3.3.4)
-      vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.2.47)
+      vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.3.4)
       vuepress-plugin-reading-time2: registry.npmmirror.com/vuepress-plugin-reading-time2@2.0.0-beta.226(vuepress@2.0.0-beta.63)
       vuepress-plugin-sass-palette: registry.npmmirror.com/vuepress-plugin-sass-palette@2.0.0-beta.226(vuepress@2.0.0-beta.63)
       vuepress-shared: registry.npmmirror.com/vuepress-shared@2.0.0-beta.226(vuepress@2.0.0-beta.63)
@@ -7370,7 +7248,7 @@ packages:
       balloon-css: registry.npmmirror.com/balloon-css@1.2.0
       vue: registry.npmmirror.com/vue@3.3.4
       vue-router: registry.npmmirror.com/vue-router@4.2.2(vue@3.3.4)
-      vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.2.47)
+      vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.3.4)
       vuepress-plugin-sass-palette: registry.npmmirror.com/vuepress-plugin-sass-palette@2.0.0-beta.226(vuepress@2.0.0-beta.63)
       vuepress-shared: registry.npmmirror.com/vuepress-shared@2.0.0-beta.226(vuepress@2.0.0-beta.63)
     transitivePeerDependencies:
@@ -7402,7 +7280,7 @@ packages:
       '@vueuse/core': registry.npmmirror.com/@vueuse/core@10.2.0(vue@3.3.4)
       vue: registry.npmmirror.com/vue@3.3.4
       vue-router: registry.npmmirror.com/vue-router@4.2.2(vue@3.3.4)
-      vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.2.47)
+      vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.3.4)
       vuepress-shared: registry.npmmirror.com/vuepress-shared@2.0.0-beta.226(vuepress@2.0.0-beta.63)
     transitivePeerDependencies:
       - '@vue/composition-api'
@@ -7430,7 +7308,7 @@ packages:
       '@vuepress/shared': registry.npmmirror.com/@vuepress/shared@2.0.0-beta.63
       '@vuepress/utils': registry.npmmirror.com/@vuepress/utils@2.0.0-beta.63
       cheerio: registry.npmmirror.com/cheerio@1.0.0-rc.12
-      vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.2.47)
+      vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.3.4)
       vuepress-shared: registry.npmmirror.com/vuepress-shared@2.0.0-beta.226(vuepress@2.0.0-beta.63)
       xml-js: registry.npmmirror.com/xml-js@1.6.11
     transitivePeerDependencies:
@@ -7497,7 +7375,7 @@ packages:
       reveal.js: registry.npmmirror.com/reveal.js@4.5.0
       vue: registry.npmmirror.com/vue@3.3.4
       vue-router: registry.npmmirror.com/vue-router@4.2.2(vue@3.3.4)
-      vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.2.47)
+      vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.3.4)
       vuepress-plugin-sass-palette: registry.npmmirror.com/vuepress-plugin-sass-palette@2.0.0-beta.226(vuepress@2.0.0-beta.63)
       vuepress-shared: registry.npmmirror.com/vuepress-shared@2.0.0-beta.226(vuepress@2.0.0-beta.63)
     transitivePeerDependencies:
@@ -7533,7 +7411,7 @@ packages:
       photoswipe: registry.npmmirror.com/photoswipe@5.3.7
       vue: registry.npmmirror.com/vue@3.3.4
       vue-router: registry.npmmirror.com/vue-router@4.2.2(vue@3.3.4)
-      vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.2.47)
+      vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.3.4)
       vuepress-plugin-sass-palette: registry.npmmirror.com/vuepress-plugin-sass-palette@2.0.0-beta.226(vuepress@2.0.0-beta.63)
       vuepress-shared: registry.npmmirror.com/vuepress-shared@2.0.0-beta.226(vuepress@2.0.0-beta.63)
     transitivePeerDependencies:
@@ -7570,7 +7448,7 @@ packages:
       register-service-worker: registry.npmmirror.com/register-service-worker@1.7.2
       vue: registry.npmmirror.com/vue@3.3.4
       vue-router: registry.npmmirror.com/vue-router@4.2.2(vue@3.3.4)
-      vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.2.47)
+      vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.3.4)
       vuepress-plugin-sass-palette: registry.npmmirror.com/vuepress-plugin-sass-palette@2.0.0-beta.226(vuepress@2.0.0-beta.63)
       vuepress-shared: registry.npmmirror.com/vuepress-shared@2.0.0-beta.226(vuepress@2.0.0-beta.63)
       workbox-build: registry.npmmirror.com/workbox-build@7.0.0
@@ -7600,7 +7478,7 @@ packages:
     dependencies:
       '@vuepress/client': registry.npmmirror.com/@vuepress/client@2.0.0-beta.63
       vue: registry.npmmirror.com/vue@3.3.4
-      vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.2.47)
+      vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.3.4)
       vuepress-shared: registry.npmmirror.com/vuepress-shared@2.0.0-beta.226(vuepress@2.0.0-beta.63)
     transitivePeerDependencies:
       - '@vue/composition-api'
@@ -7629,7 +7507,7 @@ packages:
       '@vuepress/shared': registry.npmmirror.com/@vuepress/shared@2.0.0-beta.63
       '@vuepress/utils': registry.npmmirror.com/@vuepress/utils@2.0.0-beta.63
       vue: registry.npmmirror.com/vue@3.3.4
-      vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.2.47)
+      vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.3.4)
       vuepress-shared: registry.npmmirror.com/vuepress-shared@2.0.0-beta.226(vuepress@2.0.0-beta.63)
     transitivePeerDependencies:
       - '@vue/composition-api'
@@ -7661,7 +7539,7 @@ packages:
       '@vuepress/utils': registry.npmmirror.com/@vuepress/utils@2.0.0-beta.63
       chokidar: registry.npmmirror.com/chokidar@3.5.3
       sass: registry.npmmirror.com/sass@1.63.4
-      vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.2.47)
+      vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.3.4)
       vuepress-shared: registry.npmmirror.com/vuepress-shared@2.0.0-beta.226(vuepress@2.0.0-beta.63)
     transitivePeerDependencies:
       - '@vue/composition-api'
@@ -7688,7 +7566,7 @@ packages:
     dependencies:
       '@vuepress/shared': registry.npmmirror.com/@vuepress/shared@2.0.0-beta.63
       '@vuepress/utils': registry.npmmirror.com/@vuepress/utils@2.0.0-beta.63
-      vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.2.47)
+      vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.3.4)
       vuepress-shared: registry.npmmirror.com/vuepress-shared@2.0.0-beta.226(vuepress@2.0.0-beta.63)
     transitivePeerDependencies:
       - '@vue/composition-api'
@@ -7716,7 +7594,7 @@ packages:
       '@vuepress/shared': registry.npmmirror.com/@vuepress/shared@2.0.0-beta.63
       '@vuepress/utils': registry.npmmirror.com/@vuepress/utils@2.0.0-beta.63
       sitemap: registry.npmmirror.com/sitemap@7.1.1
-      vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.2.47)
+      vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.3.4)
       vuepress-shared: registry.npmmirror.com/vuepress-shared@2.0.0-beta.226(vuepress@2.0.0-beta.63)
     transitivePeerDependencies:
       - '@vue/composition-api'
@@ -7754,7 +7632,7 @@ packages:
       striptags: registry.npmmirror.com/striptags@3.2.0
       vue: registry.npmmirror.com/vue@3.3.4
       vue-router: registry.npmmirror.com/vue-router@4.2.2(vue@3.3.4)
-      vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.2.47)
+      vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.3.4)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - supports-color
@@ -7801,7 +7679,7 @@ packages:
       gray-matter: registry.npmmirror.com/gray-matter@4.0.3
       vue: registry.npmmirror.com/vue@3.3.4
       vue-router: registry.npmmirror.com/vue-router@4.2.2(vue@3.3.4)
-      vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.2.47)
+      vuepress: registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.3.4)
       vuepress-plugin-auto-catalog: registry.npmmirror.com/vuepress-plugin-auto-catalog@2.0.0-beta.226(vuepress@2.0.0-beta.63)
       vuepress-plugin-blog2: registry.npmmirror.com/vuepress-plugin-blog2@2.0.0-beta.226(vuepress@2.0.0-beta.63)
       vuepress-plugin-comment2: registry.npmmirror.com/vuepress-plugin-comment2@2.0.0-beta.226(vuepress@2.0.0-beta.63)
@@ -7824,7 +7702,7 @@ packages:
       - supports-color
     dev: true
 
-  registry.npmmirror.com/vuepress-vite@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.2.47):
+  registry.npmmirror.com/vuepress-vite@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.3.4):
     resolution: {integrity: sha512-TMPl/fQi6mqdHyz/NkZbkZHch4aFxmw+Um52vS09ryE4W4jDGK0CY+7nw8RuTkABN/02OzDoAqRaYfwZFXywFw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress-vite/-/vuepress-vite-2.0.0-beta.63.tgz}
     id: registry.npmmirror.com/vuepress-vite/2.0.0-beta.63
     name: vuepress-vite
@@ -7840,7 +7718,7 @@ packages:
       '@vuepress/client': registry.npmmirror.com/@vuepress/client@2.0.0-beta.63
       '@vuepress/core': registry.npmmirror.com/@vuepress/core@2.0.0-beta.63
       '@vuepress/theme-default': registry.npmmirror.com/@vuepress/theme-default@2.0.0-beta.63
-      vue: registry.npmmirror.com/vue@3.2.47
+      vue: registry.npmmirror.com/vue@3.3.4
     transitivePeerDependencies:
       - '@types/node'
       - '@vue/composition-api'
@@ -7854,7 +7732,7 @@ packages:
       - ts-node
     dev: true
 
-  registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.2.47):
+  registry.npmmirror.com/vuepress@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.3.4):
     resolution: {integrity: sha512-P9AnMkrRHVl5kUlBcMbLMvkWoVFyxopQl9zLVWGnTRBXFqxY5IkfP+BvTVfLRXuW2itC11Q3TW6OnJtlY8V1sQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vuepress/-/vuepress-2.0.0-beta.63.tgz}
     id: registry.npmmirror.com/vuepress/2.0.0-beta.63
     name: vuepress
@@ -7862,7 +7740,7 @@ packages:
     engines: {node: '>=16.19.0'}
     hasBin: true
     dependencies:
-      vuepress-vite: registry.npmmirror.com/vuepress-vite@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.2.47)
+      vuepress-vite: registry.npmmirror.com/vuepress-vite@2.0.0-beta.63(@vuepress/client@2.0.0-beta.63)(vue@3.3.4)
     transitivePeerDependencies:
       - '@types/node'
       - '@vue/composition-api'
