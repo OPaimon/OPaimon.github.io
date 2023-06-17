@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3e710fe1131f6515",
+        "id": "9b967b4ff2d9cd47",
         "type": "tabs",
         "children": [
           {
-            "id": "ab3be69982089215",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "temple/TEMPLE_post.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6fe04be1d6cea7ba",
+            "id": "b0a2580460f952a2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -159,11 +146,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6fe04be1d6cea7ba",
+  "active": "b0a2580460f952a2",
   "lastOpenFiles": [
-    "posts/2023-06-17 测试.md",
     "temple/TEMPLE_post.md",
     "works/homeworks/2023-04-17-code.md",
+    "posts/2023-06-17 测试.md",
     "works/homeworks/2023-05-23-PTA.md",
     "temple",
     "slides.md",
