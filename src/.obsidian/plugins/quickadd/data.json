@@ -8,7 +8,7 @@
       "templatePath": "temple/TEMPLATE_post.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "{{DATE}}_{{NAME}}"
+        "format": "{{DATE: YY-MM-DD_HHMM}}"
       },
       "folder": {
         "enabled": true,
