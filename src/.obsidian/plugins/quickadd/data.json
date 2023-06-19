@@ -13,7 +13,8 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "posts"
+          "posts",
+          "works/homeworks"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
